@@ -1,0 +1,20 @@
+header, footer {
+    width: 100%;
+    background-color: #343a40; /* Dark background for header/footer */
+    color: white;
+    padding: 10px 0; /* Add some padding for better spacing */
+  }
+  
+  header .container, footer .container {
+    display: flex;
+    justify-content: space-between; /* Align items in header/footer */
+    align-items: center; /* Center vertically */
+    max-width: 1200px; /* Restrict content width */
+    margin: 0 auto; /* Center container horizontally */
+  }
+  
+  footer {
+    text-align: center; /* Center text for footer */
+    padding: 20px 0; /* Larger padding for footer */
+  }
+  
