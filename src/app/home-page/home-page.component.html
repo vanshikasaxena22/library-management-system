@@ -1,13 +1,11 @@
 <div class="container-fluid">
     <!-- Header -->
      <app-header></app-header>
-
-
   
     <!-- Welcome Banner -->
     <section class="welcome-banner text-center text-white py-5" style="background: url('https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center/cover;">
       <h2 class="font-weight-bold">Welcome to Our Library!</h2>
-      <p class="font-weight-bold">Explore, Borrow, and Enjoy the World of Books</p>
+      <p class="fw-bolder">Explore, Borrow, and Enjoy the World of Books</p>
       <button class="btn btn-primary mx-2" (click)="onSearchBooks()">Search Books</button>
       
       <div class="dropdown d-inline">
@@ -20,8 +18,10 @@
           Sign up/Login
         </button>
         <ul class="dropdown-menu" aria-labelledby="loginDropdown">
-          <li><a class="dropdown-item" href="/admin-login">Admin Login</a></li>
-          <li><a class="dropdown-item" href="/user-login">User Login</a></li>
+          <li><a class="dropdown-item" routerLink="/library-management-system/home/admin-login">Admin Login</a></li>
+          <li><a class="dropdown-item" routerLink="/library-management-system/home/admin-signup">Admin Signup</a></li>
+          <li><a class="dropdown-item" routerLink="/library-management-system/home/user-login">User Login</a></li>
+          <li><a class="dropdown-item" routerLink="/library-management-system/home/user-signup">User Signup</a></li>
         </ul>
       </div>
     </section>

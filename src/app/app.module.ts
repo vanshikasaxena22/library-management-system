@@ -8,6 +8,10 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BooksComponent } from './books/books.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { AdminLoginComponent } from './admin/admin-login/admin-login.component';
+import { AdminSignupComponent } from './admin/admin-signup/admin-signup.component';
+import { UserLoginComponent } from './user/user-login/user-login.component';
+import { UserSignupComponent } from './user/user-signup/user-signup.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { ContactusComponent } from './contactus/contactus.component';
     HeaderComponent,
     FooterComponent,
     BooksComponent,
-    ContactusComponent
+    ContactusComponent,
+    AdminLoginComponent,
+    AdminSignupComponent,
+    UserLoginComponent,
+    UserSignupComponent
   ],
   imports: [
     BrowserModule,
