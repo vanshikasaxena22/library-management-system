@@ -9,7 +9,21 @@
       <h2 class="font-weight-bold">Welcome to Our Library!</h2>
       <p class="font-weight-bold">Explore, Borrow, and Enjoy the World of Books</p>
       <button class="btn btn-primary mx-2" (click)="onSearchBooks()">Search Books</button>
-      <button class=" btn btn-light mx-2">Sign Up / Log In</button>
+      
+      <div class="dropdown d-inline">
+        <button 
+          class="btn btn-light dropdown-toggle" 
+          type="button" 
+          id="loginDropdown" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">
+          Sign up/Login
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="loginDropdown">
+          <li><a class="dropdown-item" href="/admin-login">Admin Login</a></li>
+          <li><a class="dropdown-item" href="/user-login">User Login</a></li>
+        </ul>
+      </div>
     </section>
   
     <!-- Search Bar -->
