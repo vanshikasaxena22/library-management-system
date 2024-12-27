@@ -8,11 +8,12 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BooksComponent } from './books/books.component';
 import { ContactusComponent } from './contactus/contactus.component';
-import { AdminLoginComponent } from './admin/admin-login/admin-login.component';
-import { AdminSignupComponent } from './admin/admin-signup/admin-signup.component';
+
 import { UserLoginComponent } from './user/user-login/user-login.component';
 import { UserSignupComponent } from './user/user-signup/user-signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
+import { UserDashboardComponent } from './user/user-dashboard/user-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -22,10 +23,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     BooksComponent,
     ContactusComponent,
-    AdminLoginComponent,
-    AdminSignupComponent,
+
     UserLoginComponent,
-    UserSignupComponent
+    UserSignupComponent,
+    AdminDashboardComponent,
+    UserDashboardComponent
   ],
   imports: [
     BrowserModule,
